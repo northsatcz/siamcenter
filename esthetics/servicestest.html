@@ -74,14 +74,19 @@
 }
 /* accordion */
 .accordion-body{
-  padding: 15px 5px 15px 15px;
+  padding: 15px 0px 15px 15px;
 }
 .accordion-button{
   background-color: transparent;
 }
+.accordion-item{
+  border: 0;
+}
 .accordion-button:focus{
   background-color: transparent;
+  border-color: transparent!important;
 }
+
 .accordion-button:not(.collapsed){
   background-color: transparent;
 }
@@ -132,71 +137,494 @@ button{
     </div>
   </header>
 
-  <section class="section">
-    <div class="container">
-      <h4 class="text-siam fw-bold mt-5">Antiage терапия</h4>
-        <div class="p-3">
-        <h4 class="ms-5 text-siam">Лазерная косметология</h4>
-          <div class="ms-5 ps-5 serviceBorderBlock">
-            <h4 class="mainHeadTextService">Омоложение (HARMONY XL Pro ClearLift) Без повреждения кожного покрова</h4>
-            <div class="ms-5 ps-5 serviceBorderBlockTwo">
-              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - лицо</h4><h4 class="priceService">85 000 тенге</h4></div>
-              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - шея</h4><h4 class="priceService">55 000 тенге</h4></div>
-              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - декольте</h4><h4 class="priceService">65 000 тенге</h4></div>
-              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - область груди + декольте</h4><h4 class="priceService">150 000 тенге</h4></div>
-              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - лицо + шея + декольте</h4><h4 class="priceService">180 000 тенге</h4></div>
-              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - кисти рук</h4><h4 class="priceService">55 000 тенге</h4></div>
-              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - лоб</h4><h4 class="priceService">40 000 тенге</h4></div>
-              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - тело, участок 10х10 см</h4><h4 class="priceService">25 000 тенге</h4></div>
-              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - интимная область</h4><h4 class="priceService">от 50 000 тенге</h4></div>
-              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - веки</h4><h4 class="priceService">от 25 000 тенге</h4></div>
-            </div>
-          </div>
-        </div>
-    </div>
-  </section>
-
-  <section class="section">
+  <div class="" style="padding: 150px 0px;">
     <div class="container">
       <div class="accordion" id="accordionPanelsStayOpenExample">
+        <!-- accordion Antiage терапия -->
         <div class="accordion-item">
-          <h1 class="accordion-header" id="panelsStayOpen-headingOne" style="font-size: 1.5rem!important">
+          <h2 class="accordion-header">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
               <h4 class="text-siam fw-bold">Antiage терапия</h4>
             </button>
-          </h1>
-          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
             <div class="accordion-body">
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                    <h4 class="text-siam">Лазерная косметология</h4>
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                  <div class="accordion-body">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                          <h4 class="mainHeadTextService">Омоложение (HARMONY XL Pro ClearLift) Без повреждения кожного покрова</h4>
-                        </button>
-                      </h2>
-                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                        <!-- <div class="tooltip">Hover over me <span class="tooltiptext">Tooltip text</span></div> -->
-                        <div class="accordion-body" id="firstCheck" style="padding: 20px">
+                <!-- accordion Лазерная косметология  -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      <h4 class="text-siam">Лазерная косметология</h4>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      
+                      <!-- start accordion Омоложение -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <h4 class="mainHeadTextService">Омоложение (HARMONY XL Pro ClearLift) Без повреждения кожного покрова</h4>
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                          <div class="accordion-body">
 
+                            <div class="ps-5">
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - лицо</h4><h4 class="priceService">85 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - шея</h4><h4 class="priceService">55 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - декольте</h4><h4 class="priceService">65 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - область груди + декольте</h4><h4 class="priceService">150 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - лицо + шея + декольте</h4><h4 class="priceService">180 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - кисти рук</h4><h4 class="priceService">55 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - лоб</h4><h4 class="priceService">40 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - тело, участок 10х10 см</h4><h4 class="priceService">25 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - интимная область</h4><h4 class="priceService">от 50 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearLift - веки</h4><h4 class="priceService">от 25 000 тенге</h4></div>
+                            </div>
+
+                          </div>
                         </div>
                       </div>
+                      <!-- accordion end -->
+                      
+                      <!-- start accordion Карбоновый  -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                            <h4 class="mainHeadTextService">Карбоновый пилинг (HARMONY XL Pro ClearLift)</h4>
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+
+                            <div class="ps-5">
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Карбоновый пилинг - лицо</h4><h4 class="priceService">40 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Карбоновый пилинг - спина верхняя часть <br> <div class="" style="color: rgb(120, 118, 118)">(стоимость зависит от объема обрабатываемой зоны)</div></h4><h4 class="priceService">от 80 000 - 100 000 тенге</h4></div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <!-- accordion end -->
+                      
+                      <!-- start accordion Фракционная аблятивная шлифовка  -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                            <h4 class="mainHeadTextService">Фракционная аблятивная шлифовка (HARMONY XL Pro Er:Yag)</h4>
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+
+                            <div class="ps-5">
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фракционная аблятивная шлифовка - лицо</h4><h4 class="priceService">150 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фракционная аблятивная шлифовка - <br>верхние и нижние веки </h4><h4 class="priceService">50 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фракционная аблятивная шлифовка - декольте</h4><h4 class="priceService">60 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фракционная аблятивная шлифовка - шея</h4><h4 class="priceService">50 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фракционная аблятивная шлифовка - лицо + шея + декольте</h4><h4 class="priceService">200 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фракционная аблятивная шлифовка - кисти рук</h4><h4 class="priceService">60 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фракционная аблятивная шлифовка - рубцы (1 см²)</h4><h4 class="priceService">10 000 тенге</h4></div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <!-- accordion end -->
+                      
+                      <!-- start accordion Фракционное аблятивная шлифовка кожи   -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                            <h4 class="mainHeadTextService">Фракционное аблятивная шлифовка кожи (SMARTXIDE DOT2) - CO2</h4>
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+
+                            <div class="ps-5">
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фракционное аблятивное омоложение - лицо</h4><h4 class="priceService">200 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фракционное омоложение - веки </h4><h4 class="priceService">50 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фракционная аблятивная шлифовка - шея</h4><h4 class="priceService">70 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фракционная аблятивная шлифовка - декольте</h4><h4 class="priceService">80 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фракционная аблятивная шлифовка - лицо + шея + декольте</h4><h4 class="priceService">250 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фракционное аблятивное омоложение + RF - лицо</h4><h4 class="priceService">250 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фракционное аблятивное омоложение + RF - шея</h4><h4 class="priceService">100 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фракционное аблятивное омоложение + RF - декольте</h4><h4 class="priceService">110 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фракционное аблятивное омоложение + RF - лицо + шея + декольте</h4><h4 class="priceService">350 000 тенге</h4></div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <!-- accordion end -->
+                      
+                      <!-- start accordion Фракционное лазерное неаблятивное омоложение (HARMONY XL Pro ClearSkin) ("Шлифовка без реабилитации")   -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+                            <h4 class="mainHeadTextService">Фракционное лазерное неаблятивное омоложение (HARMONY XL Pro ClearSkin) ("Шлифовка без реабилитации")</h4>
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+
+                            <div class="ps-5">
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearSkin - лицо</h4><h4 class="priceService">130 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearSkin - шея </h4><h4 class="priceService">80 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearSkin - декольте</h4><h4 class="priceService">90 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearSkin - лицо + шея + декольте</h4><h4 class="priceService">220 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearSkin - кисти рук</h4><h4 class="priceService">50 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearSkin - тело, участок 10х10 см</h4><h4 class="priceService">30 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Омоложение ClearSkin - веки</h4><h4 class="priceService">35 000 тенге</h4></div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <!-- accordion end -->
+
+
                     </div>
                   </div>
                 </div>
-              </div>
+                <!-- accordion end -->
+
+                <!-- accordion Аппаратная косметология  -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEight" aria-expanded="false" aria-controls="panelsStayOpen-collapseEight">
+                      <h4 class="text-siam">Аппаратная косметология</h4>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseEight" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      
+                      <!-- start accordion Фотоомоложение (HARMONY XL PRO DyeSR или DyeVL) -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseNine" aria-expanded="false" aria-controls="panelsStayOpen-collapseNine">
+                            <h4 class="mainHeadTextService">Фотоомоложение (HARMONY XL PRO DyeSR или DyeVL)</h4>
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseNine" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+
+                            <div class="ps-5">
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фотоомоложение HARMONY XL PRO DyeSR или DyeVL - лицо</h4><h4 class="priceService">60 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фотоомоложение HARMONY XL PRO DyeSR или DyeVL - шея</h4><h4 class="priceService">40 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фотоомоложение HARMONY XL PRO DyeSR или DyeVL - декольте</h4><h4 class="priceService">50 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фотоомоложение HARMONY XL PRO DyeSR или DyeVL - лицо + шея</h4><h4 class="priceService">80 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Фотоомоложение HARMONY XL PRO DyeSR или DyeVL - лицо + шея + декольте</h4><h4 class="priceService">120 000 тенге</h4></div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <!-- accordion end -->
+                      
+                      <!-- start accordion Инфракрасный термолифтинг (HARMONY XL PRO NIR)  -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTen" aria-expanded="false" aria-controls="panelsStayOpen-collapseTen">
+                            <h4 class="mainHeadTextService">Инфракрасный термолифтинг (HARMONY XL PRO NIR)</h4>
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTen" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+
+                            <div class="ps-5">
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Инфракрасный термолифтинг NIR - лицо</h4><h4 class="priceService">45 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Инфракрасный термолифтинг NIR - лицо + шея</h4><h4 class="priceService">65 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Инфракрасный термолифтинг NIR - лицо + шея + декольте</h4><h4 class="priceService">85 000 тенге</h4></div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <!-- accordion end -->
+                      
+                      <!-- start accordion Ультразвуковой SMAS-лифтинг (Ulthera System)  -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseEleven" aria-expanded="false" aria-controls="panelsStayOpen-collapseEleven">
+                            <h4 class="mainHeadTextService">Ультразвуковой SMAS-лифтинг (Ulthera System)</h4>
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseEleven" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+
+                            <div class="ps-5">
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Ulthera - 1 линия</h4><h4 class="priceService"> 1 200 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Ulthera - лицо + шея (800 линий)</h4><h4 class="priceService">960 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Ulthera - лицо (500 линий)</h4><h4 class="priceService">600 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Ulthera - шея (240 линий)</h4><h4 class="priceService">288 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Ulthera - декольте (240 линий)</h4><h4 class="priceService">288 000 тенге</h4></div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <!-- accordion end -->
+                      
+                      <!-- start accordion Светолечение (Heleo 4)   -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwelwe" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwelwe">
+                            <h4 class="mainHeadTextService">Светолечение (Heleo 4)</h4>
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwelwe" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+
+                            <div class="ps-5">
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Heleo 4 - лицо</h4><h4 class="priceService">от 35 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Heleo 4 - шея</h4><h4 class="priceService">от 30 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Heleo 4 - декольте</h4><h4 class="priceService">от 35 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Heleo 4 - лицо + шея</h4><h4 class="priceService">от 50 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Heleo 4 - лицо + шея + декольте</h4><h4 class="priceService">от 85 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Heleo 4 - спина</h4><h4 class="priceService">от 60 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Heleo 4 - кисти рук</h4><h4 class="priceService">от 35 000 тенге</h4></div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <!-- accordion end -->
+                      
+                      <!-- start accordion ACCENT Prime Tune face (RF)   -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSeven" aria-expanded="false" aria-controls="panelsStayOpen-collapseSeven">
+                            <h4 class="mainHeadTextService">ACCENT Prime Tune face (RF)</h4>
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseSeven" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+
+                            <div class="ps-5">
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Программа Face AntiGravity - лицо</h4><h4 class="priceService">70 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Программа Face AntiGravity - овал лица</h4><h4 class="priceService">45 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Программа Face AntiGravity - шея</h4><h4 class="priceService">25 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Программа Face AntiGravity - лицо + шея</h4><h4 class="priceService">80 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Программа Face AntiGravity - декольте</h4><h4 class="priceService">55 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Программа Face AntiGravity - лицо + шея + декольте</h4><h4 class="priceService">120  000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Программа Face AntiGravity - область глаз</h4><h4 class="priceService">35 000 тенге</h4></div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <!-- accordion end -->
+
+
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- accordion end -->
+
+                <!-- accordion Инъекционная косметология  -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsethirteen" aria-expanded="false" aria-controls="panelsStayOpen-collapsethirteen">
+                      <h4 class="text-siam">Инъекционная косметология</h4>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapsethirteen" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      
+                      <!-- start accordion Ботулинотерапия функциональных морщин -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefourteen" aria-expanded="false" aria-controls="panelsStayOpen-collapsefourteen">
+                            <h4 class="mainHeadTextService">Фотоомоложение (HARMONY XL PRO DyeSR или DyeVL)</h4>
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapsefourteen" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+
+                            <div class="ps-5">
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Мезотерапия</h4><h4 class="priceService">60 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Биоревитализация</h4><h4 class="priceService">40 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Биорепарация</h4><h4 class="priceService">50 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Плазмолифтинг</h4><h4 class="priceService">80 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Контурная пластика</h4><h4 class="priceService">120 000 тенге</h4></div>
+                              
+                      
+                              <!-- start accordion Ботулинотерапия функциональных морщин -->
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefifteen" aria-expanded="false" aria-controls="panelsStayOpen-collapsefifteen">
+                                    <h4 class="headTextService">Ботулинотерапия функциональных морщин</h4><h4 class="priceService"></h4>
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapsefifteen" class="accordion-collapse collapse">
+                                  <div class="accordion-body">
+
+                                    <div class="ps-5">
+                                      <div class="d-flex justify-content-between"><h4 class="headTextService">Диспорт 1ед</h4><h4 class="priceService">800 тенге</h4></div>
+                                      <div class="d-flex justify-content-between"><h4 class="headTextService">Ксеомин 1ед</h4><h4 class="priceService">2 000 тенге</h4></div>
+                                      <div class="d-flex justify-content-between"><h4 class="headTextService">Нейронокс 1ед</h4><h4 class="priceService">1 800 тенге</h4></div>
+                                      <div class="d-flex justify-content-between"><h4 class="headTextService">Vistabel (Botox) 1ед</h4><h4 class="priceService">2200 тенге</h4></div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- accordion end -->
+                              
+                      
+                              <!-- start accordion Лечение гипергидроза -->
+                              <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsesixteen" aria-expanded="false" aria-controls="panelsStayOpen-collapsesixteen">
+                                    <h4 class="headTextService">Лечение гипергидроза</h4><h4 class="priceService"></h4>
+                                  </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapsesixteen" class="accordion-collapse collapse">
+                                  <div class="accordion-body">
+
+                                    <div class="ps-5">
+                                      <div class="d-flex justify-content-between"><h4 class="headTextService">Нейронокс  1ед</h4><h4 class="priceService">1 300 тенге</h4></div>
+                                      <div class="d-flex justify-content-between"><h4 class="headTextService">Диспорт  1ед</h4><h4 class="priceService">500 тенге</h4></div>
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- accordion end -->
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <!-- accordion end -->
+
+
+                    </div>
+                  </div>
+                </div>
+                <!-- accordion end -->
             </div>
           </div>
         </div>
+        <!-- accordion end -->
+
+        <!-- accordion Дерматология -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseseventeen" aria-expanded="true" aria-controls="panelsStayOpen-collapseseventeen">
+              <h4 class="text-siam fw-bold">Дерматология</h4>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseseventeen" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+                <!-- accordion Удаление  -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseeighteen" aria-expanded="false" aria-controls="panelsStayOpen-collapseeighteen">
+                      <h4 class="text-siam">Удаление</h4>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseeighteen" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      
+                      <!-- start accordion Удаление доброкачественных образований -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsenineteen" aria-expanded="false" aria-controls="panelsStayOpen-collapsenineteen">
+                            <h4 class="mainHeadTextService">Удаление доброкачественных образований</h4>
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapsenineteen" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+
+                            <div class="ps-5">
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Удаление невусов, ксантеллазм</h4><h4 class="priceService">20 000- 50 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Удаление кератозов (актинический кератоз, себорейный кератоз)</h4><h4 class="priceService">10 000 - 30 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Удаление новообразований на веках</h4><h4 class="priceService">от 10 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Удаление остроконечных кондилом</h4><h4 class="priceService">от 15 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Удаление подошвенной бородавки</h4><h4 class="priceService">от 15 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Удаление папиллом</h4><h4 class="priceService">от 2 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Удаление ксантеллазм</h4><h4 class="priceService">от 20 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Гистологическое исследование за 1 элемент</h4><h4 class="priceService">10 000 тенге</h4></div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <!-- accordion end -->
+                      
+                      <!-- start accordion Удаление татуировок  -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsetwenty" aria-expanded="false" aria-controls="panelsStayOpen-collapsetwenty">
+                            <h4 class="mainHeadTextService">Удаление татуировок</h4>
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapsetwenty" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+
+                            <div class="ps-5">
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Удаление тату за 1 см² (от 5-20 см²)</h4><h4 class="priceService">3 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Удаление тату 1 см² (от 20 см²)</h4><h4 class="priceService">2 750 тенге</h4></div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <!-- accordion end -->
+
+
+                    </div>
+                  </div>
+                </div>
+                <!-- accordion end -->
+
+                <!-- accordion Аппаратное лечение кожных патологий  -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsetwentyone" aria-expanded="false" aria-controls="panelsStayOpen-collapsetwentyone">
+                      <h4 class="text-siam">Аппаратная косметология</h4>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapsetwentyone" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      
+                      <!-- start accordion Программа Анти-акне -->
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsetwentytwo" aria-expanded="false" aria-controls="panelsStayOpen-collapsetwentytwo">
+                            <h4 class="mainHeadTextService">Программа Анти-акне</h4>
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapsetwentytwo" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+
+                            <div class="ps-5">
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Harmony XL PRO Анти-акне - 1 элемент</h4><h4 class="priceService">от 5 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Harmony XL PRO Анти-акне - лицо полностью</h4><h4 class="priceService">от 65 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Harmony XL PRO Анти-акне - щеки</h4><h4 class="priceService">от 25 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Harmony XL PRO Анти-акне - спина полностью</h4><h4 class="priceService">от 60 000 тенге</h4></div>
+                              <div class="d-flex justify-content-between"><h4 class="headTextService">Harmony XL PRO Анти-акне - спина верхняя или нижняя часть</h4><h4 class="priceService">от 35 000 тенге</h4></div>
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                      <!-- accordion end -->
+
+                    </div>
+                  </div>
+                </div>
+                <!-- accordion end -->
+            </div>
+          </div>
+        </div>
+        <!-- accordion end -->
       </div>
     </div>
-  </section>
+  </div>
 
   <footer style="background-color: #171717; padding: 40px 40px 40px;">
     <div class="d-flex flex-column flex-lg-row justify-content-center justify-content-md-between">
@@ -222,25 +650,127 @@ button{
 
     const data = [
       {title: 'Омоложение ClearLift - лицо', price: '85 000'},
-      {title: 'Омоложение ClearLift - шея', price: '55 000'}
+      {title: 'Омоложение ClearLift - шея', price: '55 000'},
+      {title: 'Омоложение ClearLift - декольте', price: '65 000'},
+      {title: 'Омоложение ClearLift - область груди + декольте', price: '150 000'},
+      {title: 'Омоложение ClearLift - лицо + шея + декольте', price: '55 000'},
+      {title: 'Омоложение ClearLift - кисти рук', price: '55 000'},
+      {title: 'Омоложение ClearLift - лоб', price: '40 000'},
+      {title: 'Омоложение ClearLift - тело, участок 10х10 см', price: '40 000'},
+      {title: 'Омоложение ClearLift - интимная область', price: 'от 50 000'},
+      {title: 'Омоложение ClearLift - веки', price: 'от 25 000'}
     ];
 
+    const dataC = [
+      {
+        header: 'Antiage терапия',
+        id: 'one',
+        innerArray: [
+          {
+            innerHeader: 'Лазерная косметология',
+            id: 'two',
+            iiArray: [
+              {
+                iiHeader: 'Омоложение (HARMONY XL Pro ClearLift) Без повреждения кожного покрова',
+                id: 'two',
+                iiiArray:  [
+                  {title: 'Омоложение ClearLift - лицо', price: '85 000'},
+                  {title: 'Омоложение ClearLift - шея', price: '55 000'},
+                  {title: 'Омоложение ClearLift - декольте', price: '65 000'},
+                  {title: 'Омоложение ClearLift - область груди + декольте', price: '150 000'},
+                  {title: 'Омоложение ClearLift - лицо + шея + декольте', price: '55 000'},
+                  {title: 'Омоложение ClearLift - кисти рук', price: '55 000'},
+                  {title: 'Омоложение ClearLift - лоб', price: '40 000'},
+                  {title: 'Омоложение ClearLift - тело, участок 10х10 см', price: '40 000'},
+                  {title: 'Омоложение ClearLift - интимная область', price: 'от 50 000'},
+                  {title: 'Омоложение ClearLift - веки', price: 'от 25 000'}
+                ]
+              },
+              {
+                iiHeader: 'Карбоновый пилинг (HARMONY XL Pro ClearLift)',
+                id: 'three',
+                iiiArray:  [
+                  {title: 'Карбоновый пилинг - лицо', price: '40 000'},
+                  {title: 'Омоложение ClearLift - шея', price: '55 000'},
+                ]
+              }
+            ]
+
+          }
+        ]
+      }
+    ]
+
     const firstCheck = document.querySelector('#firstCheck');
+    const secondCheck = document.querySelector('#secondCheck');
 
-    function fillData(){
-      const html = data.map(i => {
-        return `
-          <div class="d-flex justify-content-between"><h4 class="headTextService">${i.title}</h4><h4 class="priceService">${i.price} тенге</h4></div>
-        `
-      })
+    // function fillData(){
+    //   const html = data.map(i => {
+    //     return `<div class="d-flex justify-content-between"><h4 class="headTextService">${i.title}</h4><h4 class="priceService">${i.price} тенге</h4></div>`
+    //   }).join('');
+    //   firstCheck.innerHTML = html;
+    // }
 
-      firstCheck.innerHTML = html;
-    }
+    // fillData();
 
-    fillData();
+    function fillDataC(){
+        const htmlC = dataC.map(i => {
+          return `
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h1 class="accordion-header" id="panelsStayOpen-headingOne" style="font-size: 1.5rem!important">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    <h4 class="text-siam fw-bold">${i.header}</h4>
+                  </button>
+                </h1>
+                ${i.innerArray.map(j => {
+                  return `
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            <h4 class="text-siam">${j.innerHeader}</h4>
+                          </button>
+                        </h2>
+                        ${j.iiArray.map(k => {
+                          return `<div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                          <div class="accordion-body">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="panelsStayOpen-heading${k.id}">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse${k.id}" aria-expanded="false" aria-controls="panelsStayOpen-collapse${k.id}">
+                                  <h4 class="mainHeadTextService">${k.iiHeader}</h4>
+                                </button>
+                              </h2>
+                              ${k.iiiArray.map(l => {
+                                return`
+                                  <div id="panelsStayOpen-collapse${l.id}" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading${l.id}">
+                                    <!-- <div class="tooltip">Hover over me <span class="tooltiptext">Tooltip text</span></div> -->
+                                    <div class="accordion-body" id="firstCheck" style="padding: 15px 0px 0px 25px">  
+                                      <div class="d-flex justify-content-between"><h4 class="headTextService">${l.title}</h4><h4 class="priceService">${l.price} тенге</h4></div>
+                                    </div>
+                                  </div>`
+                              }).join('')}
+                            </div>
+                          </div>
+                        </div>`
+                        })}
+                      </div>
+                    </div>
+                  </div>
+                  `
+                })}
+              </div>
+            </div>
+          `
+        }).join('');
+          secondCheck.innerHTML = htmlC;
+      }
 
-    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+      // fillDataC();
+
+    // const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    // const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
   </script>
 
