@@ -258,15 +258,41 @@ a {
   border-left: 2px solid #4c4949;
 }
 .mainHeadTextService{
-  font-size: 23px;
+  /* font-size: 23px; */
   color: #4c4949;
+}
+
+/* service font sizes */
+
+.siamServiceHead1{
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.siamServiceHead2{
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.siamServiceHead3{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.siamServiceHead4{
+  font-size: 18px;
+}
+
+
+.text-siam-service{
+  color: #4c4949;;
 }
 .headTextService{
   font-size: 21px;
 }
 .priceService{
   font-size: 21px;
-  color: #6e6e6e;
+  /* color: #6e6e6e; */
 }
 
 
